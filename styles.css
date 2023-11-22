@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+canvas {
+    border: 2px solid white;
+    /* Center the canvas with margin if needed */
+    margin: auto;
+    display: block;
+}
+
+.scoreboard {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+#scoreBot, #scorePlayer {
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+.speed-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.speed-buttons button {
+    margin: 0 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
